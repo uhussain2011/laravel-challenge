@@ -69,7 +69,7 @@ class peopleController extends Controller
          $peoplecount = People::count();
          if($peoplecount >= 10)
          {
-             return redirect()->back()->with('Message', 'Only 10 People register.');
+             return redirect()->back()->with('Message', 'Only 10 employees can be registered.');
          }
 
 //         add new record
