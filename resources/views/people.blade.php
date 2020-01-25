@@ -4,6 +4,8 @@
 
 @section('content')
 
+<h1> People CRUD </h1>
+
 
 @if ($errors->any())
     <div class="alert alert-danger">
