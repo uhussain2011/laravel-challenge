@@ -27,6 +27,4 @@ I then created the relationship between role and people and created the delete a
 -	Instead of validating a request, building up $people = new People();, assign attributes and persist I could tie this all up into 1 to avoid duplication.
 
 
-## how long did this take?
 
-Around 2-3 hours
